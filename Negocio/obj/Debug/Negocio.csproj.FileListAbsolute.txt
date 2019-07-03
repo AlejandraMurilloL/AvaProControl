@@ -1,0 +1,11 @@
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\Negocio.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\Negocio.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\Datos.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\Entidades.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\Datos.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\Entidades.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\obj\Debug\Negocio.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Negocio\obj\Debug\Negocio.pdb

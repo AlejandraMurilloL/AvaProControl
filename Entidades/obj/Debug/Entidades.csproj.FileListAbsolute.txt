@@ -1,0 +1,5 @@
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Entidades\bin\Debug\Entidades.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Entidades\bin\Debug\Entidades.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Entidades\obj\Debug\Entidades.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Entidades\obj\Debug\Entidades.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

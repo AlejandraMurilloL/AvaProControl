@@ -1,0 +1,14 @@
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Properties.Resources.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Vistas.Inicio.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Vistas.Login.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.exe
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\AvaPro_Control.exe.config
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\AvaPro_Control.exe
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\AvaPro_Control.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\CircularProgressBar.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\WinFormAnimation.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\CircularProgressBar.xml
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\WinFormAnimation.xml

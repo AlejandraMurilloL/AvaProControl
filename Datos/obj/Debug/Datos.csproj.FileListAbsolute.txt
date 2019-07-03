@@ -1,0 +1,12 @@
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\Datos.dll.config
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\Datos.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\Datos.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\Entidades.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\EntityFramework.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\Entidades.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\EntityFramework.xml
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\obj\Debug\Datos.dll
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\Datos\obj\Debug\Datos.pdb
