@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Datos.MailServices
 {
-    class SystemSupportMail: MasterMailServer
+    public class SystemSupportMail: MasterMailServer
     {
         public SystemSupportMail()
         {
-            senderMail = "malemurillo15@gmail.com";
+            senderMail = "emailpruebasp@gmail.com";
+            password = "pruebas de programacion";
+            host = "smtp.gmail.com";
+            port = 587;
+            ssl = true;
+            initializeSmtpClient();
         }
     }
 }

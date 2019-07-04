@@ -63,6 +63,26 @@ namespace AvaPro_Control.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aprobadoIcon {
+            get {
+                object obj = ResourceManager.GetObject("aprobadoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap equisIcon {
+            get {
+                object obj = ResourceManager.GetObject("equisIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap perfilHombre {
             get {
                 object obj = ResourceManager.GetObject("perfilHombre", resourceCulture);

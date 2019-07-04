@@ -46,6 +46,7 @@
             this.lblNombres = new System.Windows.Forms.Button();
             this.lblEmail = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnMenuPrincipal = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnCategoria = new System.Windows.Forms.Button();
             this.btnLibro = new System.Windows.Forms.Button();
@@ -53,7 +54,6 @@
             this.btnCodigo = new System.Windows.Forms.Button();
             this.btnImagen = new System.Windows.Forms.Button();
             this.btnConcepto = new System.Windows.Forms.Button();
-            this.btnMenuPrincipal = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -219,7 +219,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(238, 305);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // lblOcupacion
             // 
@@ -228,7 +227,7 @@
             this.lblOcupacion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
             this.lblOcupacion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
             this.lblOcupacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblOcupacion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOcupacion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOcupacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
             this.lblOcupacion.Location = new System.Drawing.Point(29, 245);
             this.lblOcupacion.Name = "lblOcupacion";
@@ -243,7 +242,7 @@
             this.pbFotoPerfil.InitialImage = global::AvaPro_Control.Properties.Resources.perfilHombre;
             this.pbFotoPerfil.Location = new System.Drawing.Point(55, 15);
             this.pbFotoPerfil.Name = "pbFotoPerfil";
-            this.pbFotoPerfil.Size = new System.Drawing.Size(141, 129);
+            this.pbFotoPerfil.Size = new System.Drawing.Size(141, 141);
             this.pbFotoPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbFotoPerfil.TabIndex = 1;
             this.pbFotoPerfil.TabStop = false;
@@ -253,7 +252,7 @@
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.FlatAppearance.BorderSize = 0;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditar.Font = new System.Drawing.Font("Century Gothic", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,7 +271,7 @@
             this.lblNombres.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
             this.lblNombres.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
             this.lblNombres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblNombres.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombres.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
             this.lblNombres.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblNombres.Location = new System.Drawing.Point(29, 206);
@@ -289,7 +288,7 @@
             this.lblEmail.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
             this.lblEmail.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(104)))));
             this.lblEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmail.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
             this.lblEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblEmail.Location = new System.Drawing.Point(29, 225);
@@ -314,6 +313,20 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(238, 445);
             this.panel2.TabIndex = 1;
+            // 
+            // btnMenuPrincipal
+            // 
+            this.btnMenuPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnMenuPrincipal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenuPrincipal.FlatAppearance.BorderSize = 0;
+            this.btnMenuPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenuPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("btnMenuPrincipal.Image")));
+            this.btnMenuPrincipal.Location = new System.Drawing.Point(6, 377);
+            this.btnMenuPrincipal.Name = "btnMenuPrincipal";
+            this.btnMenuPrincipal.Size = new System.Drawing.Size(38, 37);
+            this.btnMenuPrincipal.TabIndex = 9;
+            this.btnMenuPrincipal.UseVisualStyleBackColor = true;
+            this.btnMenuPrincipal.Click += new System.EventHandler(this.btnMenuPrincipal_Click);
             // 
             // btnCerrarSesion
             // 
@@ -431,20 +444,6 @@
             this.btnConcepto.Text = "  Concepto";
             this.btnConcepto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnConcepto.UseVisualStyleBackColor = true;
-            // 
-            // btnMenuPrincipal
-            // 
-            this.btnMenuPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnMenuPrincipal.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMenuPrincipal.FlatAppearance.BorderSize = 0;
-            this.btnMenuPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMenuPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("btnMenuPrincipal.Image")));
-            this.btnMenuPrincipal.Location = new System.Drawing.Point(6, 377);
-            this.btnMenuPrincipal.Name = "btnMenuPrincipal";
-            this.btnMenuPrincipal.Size = new System.Drawing.Size(38, 37);
-            this.btnMenuPrincipal.TabIndex = 9;
-            this.btnMenuPrincipal.UseVisualStyleBackColor = true;
-            this.btnMenuPrincipal.Click += new System.EventHandler(this.btnMenuPrincipal_Click);
             // 
             // Principal
             // 

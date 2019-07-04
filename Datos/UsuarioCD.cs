@@ -63,5 +63,56 @@ namespace Datos
             }
         }
 
+        public Users RecuperarContraseña(string usuarioOrEmail, string nuevaContraseña)
+        {
+            using (AvaProEntities dbContext = new AvaProEntities())
+            {
+                Users user = null;
+                try
+                {
+                    user = dbContext.Users.Where(x => x.User == usuarioOrEmail || x.Email == usuarioOrEmail).FirstOrDefault();
+                    if (user != null)
+                    {
+                        user.Password = nuevaContraseña;
+                        dbContext.SaveChanges();
+                    }
+                }
+                catch (Exception e)
+                {
+                    string error = e.ToString();
+                }
+
+                return user;
+
+            }
+        }
+
+        public bool CambiarContraseña(Users usuario, string nuevaContraseña)
+        {
+            bool cambioExitoso = false;
+            using (AvaProEntities dbContext = new AvaProEntities())
+            {
+                Users user = null;
+                try
+                {
+                    user = dbContext.Users.Where(x => x.UserID == usuario.UserID && x.Password == usuario.Password).FirstOrDefault();
+                    if (user != null)
+                    {
+                        user.Password = nuevaContraseña;
+                        dbContext.SaveChanges();
+                        cambioExitoso = true;
+                    }
+                }
+                catch (Exception e)
+                {
+                    string error = e.ToString();
+                    cambioExitoso =  false;
+                }
+                
+            }
+
+            return cambioExitoso;
+        }
+
     }
 }

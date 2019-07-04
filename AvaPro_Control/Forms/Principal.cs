@@ -39,13 +39,9 @@ namespace AvaPro_Control.Forms
                     usuarioActual.ProfilePicture = UserHelper.ImageToByteArray(Properties.Resources.perfilHombre);
                 }
             }
-            pbFotoPerfil.Image = UserHelper.ByteToImageArray(usuarioActual.ProfilePicture);
-            pbFotoPerfil.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbFotoPerfil.BackColor = Color.White;
-            lblNombres.Text = usuarioActual.FirstName + " " + usuarioActual.LastName;
-            lblEmail.Text = usuarioActual.Email;
-            lblOcupacion.Text = usuarioActual.Ocupation;
-            
+            MostrarDatosUsuario(usuarioActual);
+
+
         }
 
         private void Principal_Load(object sender, EventArgs e)
@@ -150,12 +146,7 @@ namespace AvaPro_Control.Forms
         {
 
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+       
         private void btnMenuPrincipal_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Fondo());
@@ -183,6 +174,7 @@ namespace AvaPro_Control.Forms
             panelContenedor.Controls.Add(fh);
             panelContenedor.Tag = fh;
             fh.Show();
+            this.Refresh();
         }
 
         protected override void WndProc(ref Message msj)
@@ -203,6 +195,16 @@ namespace AvaPro_Control.Forms
                 }
             }
             base.WndProc(ref msj);
+        }
+
+        public void MostrarDatosUsuario(Users usuario)
+        {
+            pbFotoPerfil.Image = UserHelper.ByteToImageArray(usuario.ProfilePicture);
+            pbFotoPerfil.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbFotoPerfil.BackColor = Color.White;
+            lblNombres.Text = usuario.FirstName + " " + usuario.LastName;
+            lblEmail.Text = usuario.Email;
+            lblOcupacion.Text = usuario.Ocupation;
         }
     }
 }

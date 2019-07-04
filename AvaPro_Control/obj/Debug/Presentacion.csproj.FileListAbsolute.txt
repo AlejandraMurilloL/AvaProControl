@@ -27,3 +27,6 @@ C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_
 C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\bin\Debug\Datos.pdb
 C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.exe
 C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.pdb
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.User.RecuperarContraseña.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.User.CambiarContraseña.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.CuadrosDeDialogo.MessageBoxAceptar.resources

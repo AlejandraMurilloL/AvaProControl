@@ -13,6 +13,7 @@ using Entidades;
 using Negocio;
 using AvaPro_Control.Forms;
 using AvaPro_Control.CuadrosDeDialogo;
+using AvaPro_Control.Forms.User;
 
 namespace AvaPro_Control.Vistas
 {
@@ -66,46 +67,52 @@ namespace AvaPro_Control.Vistas
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void button1_Paint(object sender, PaintEventArgs e)
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            GraphicsPath buttonPath = new GraphicsPath();
-            Rectangle myRectangle = button1.ClientRectangle;
-            myRectangle.Inflate(0,30);
-            buttonPath.AddEllipse(myRectangle);
-            button1.Region = new Region(buttonPath);
+            RecuperarContraseña frmRecuperar = new RecuperarContraseña();
+            frmRecuperar.ShowDialog();
         }
-        
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
-            Users user = new Users();
-            user = UsuarioCN.GetUsuarioLogin(txtUsuario._TextBox.Text, txtPassword._TextBox.Text);
-            if (user != null)
+            if (txtUsuario.text == string.Empty|| txtPassword.text == string.Empty)
             {
-                if (cbRecordarme.Checked)
-                {
-                    Properties.Settings.Default["Login"] = user.User+","+ txtPassword._TextBox.Text;
-                    Properties.Settings.Default.Save();
-                }
-                else
-                {
-                    Properties.Settings.Default["Login"] = "";
-                    Properties.Settings.Default.Save();
-                }
-                Principal frm = new Principal(user);
-                frm.Show();
-                this.Close();
+                lblError.Text = "Por favor complete ambos campos";
+                lblError.Visible = true;
             }
             else
             {
-                lblError.Visible = true;
-                txtUsuario.text = "";
-                txtPassword.text = "";
-               
+                Users user = new Users();
+
+                user = UsuarioCN.GetUsuarioLogin(txtUsuario._TextBox.Text, txtPassword._TextBox.Text);
+                if (user != null)
+                {
+                    if (cbRecordarme.Checked)
+                    {
+                        Properties.Settings.Default["Login"] = user.User + "," + txtPassword._TextBox.Text;
+                        Properties.Settings.Default.Save();
+                    }
+                    else
+                    {
+                        Properties.Settings.Default["Login"] = "";
+                        Properties.Settings.Default.Save();
+                    }
+                    Principal frm = new Principal(user);
+                    frm.Show();
+                    this.Close();
+                }
+                else
+                {
+                    lblError.Text = "Usuario o contraseña incorrectos";
+                    lblError.Visible = true;
+                    txtUsuario.text = "";
+                    txtPassword.text = "";
+
+                }
             }
+           
         }
 
 

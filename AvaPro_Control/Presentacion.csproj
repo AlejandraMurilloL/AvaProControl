@@ -50,6 +50,7 @@
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -78,6 +79,18 @@
     <Compile Include="CuadrosDeDialogo\Error.Designer.cs">
       <DependentUpon>Error.cs</DependentUpon>
     </Compile>
+    <Compile Include="CuadrosDeDialogo\MessageBoxAceptar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuadrosDeDialogo\MessageBoxAceptar.Designer.cs">
+      <DependentUpon>MessageBoxAceptar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Concepts\ConceptIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Concepts\ConceptIndex.Designer.cs">
+      <DependentUpon>ConceptIndex.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Fondo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,11 +103,23 @@
     <Compile Include="Forms\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\User\CambiarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\CambiarContraseña.Designer.cs">
+      <DependentUpon>CambiarContraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\User\Edit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\User\Edit.Designer.cs">
       <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\RecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\RecuperarContraseña.Designer.cs">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -116,14 +141,26 @@
     <EmbeddedResource Include="CuadrosDeDialogo\Error.resx">
       <DependentUpon>Error.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CuadrosDeDialogo\MessageBoxAceptar.resx">
+      <DependentUpon>MessageBoxAceptar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Concepts\ConceptIndex.resx">
+      <DependentUpon>ConceptIndex.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Fondo.resx">
       <DependentUpon>Fondo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\CambiarContraseña.resx">
+      <DependentUpon>CambiarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\User\Edit.resx">
       <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\RecuperarContraseña.resx">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -174,6 +211,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\perfilHombre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aprobadoIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equisIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
