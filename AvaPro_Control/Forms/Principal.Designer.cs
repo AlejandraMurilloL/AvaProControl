@@ -48,12 +48,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnMenuPrincipal = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
-            this.btnCategoria = new System.Windows.Forms.Button();
+            this.btnArticulo = new System.Windows.Forms.Button();
             this.btnLibro = new System.Windows.Forms.Button();
             this.btnError = new System.Windows.Forms.Button();
             this.btnCodigo = new System.Windows.Forms.Button();
             this.btnImagen = new System.Windows.Forms.Button();
             this.btnConcepto = new System.Windows.Forms.Button();
+            this.btnTutorial = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -300,9 +301,10 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnTutorial);
             this.panel2.Controls.Add(this.btnMenuPrincipal);
             this.panel2.Controls.Add(this.btnCerrarSesion);
-            this.panel2.Controls.Add(this.btnCategoria);
+            this.panel2.Controls.Add(this.btnArticulo);
             this.panel2.Controls.Add(this.btnLibro);
             this.panel2.Controls.Add(this.btnError);
             this.panel2.Controls.Add(this.btnCodigo);
@@ -342,22 +344,22 @@
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
-            // btnCategoria
+            // btnArticulo
             // 
-            this.btnCategoria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCategoria.FlatAppearance.BorderSize = 0;
-            this.btnCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCategoria.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
-            this.btnCategoria.Image = ((System.Drawing.Image)(resources.GetObject("btnCategoria.Image")));
-            this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCategoria.Location = new System.Drawing.Point(12, 227);
-            this.btnCategoria.Name = "btnCategoria";
-            this.btnCategoria.Size = new System.Drawing.Size(226, 35);
-            this.btnCategoria.TabIndex = 7;
-            this.btnCategoria.Text = "  Categoria";
-            this.btnCategoria.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCategoria.UseVisualStyleBackColor = true;
+            this.btnArticulo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArticulo.FlatAppearance.BorderSize = 0;
+            this.btnArticulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArticulo.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArticulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
+            this.btnArticulo.Image = ((System.Drawing.Image)(resources.GetObject("btnArticulo.Image")));
+            this.btnArticulo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnArticulo.Location = new System.Drawing.Point(12, 227);
+            this.btnArticulo.Name = "btnArticulo";
+            this.btnArticulo.Size = new System.Drawing.Size(226, 35);
+            this.btnArticulo.TabIndex = 7;
+            this.btnArticulo.Text = "  Articulo Blog";
+            this.btnArticulo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnArticulo.UseVisualStyleBackColor = true;
             // 
             // btnLibro
             // 
@@ -444,6 +446,24 @@
             this.btnConcepto.Text = "  Concepto";
             this.btnConcepto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnConcepto.UseVisualStyleBackColor = true;
+            this.btnConcepto.Click += new System.EventHandler(this.btnConcepto_Click);
+            // 
+            // btnTutorial
+            // 
+            this.btnTutorial.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTutorial.FlatAppearance.BorderSize = 0;
+            this.btnTutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTutorial.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTutorial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(254)))), ((int)(((byte)(250)))));
+            this.btnTutorial.Image = ((System.Drawing.Image)(resources.GetObject("btnTutorial.Image")));
+            this.btnTutorial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTutorial.Location = new System.Drawing.Point(9, 268);
+            this.btnTutorial.Name = "btnTutorial";
+            this.btnTutorial.Size = new System.Drawing.Size(226, 35);
+            this.btnTutorial.TabIndex = 10;
+            this.btnTutorial.Text = "  Tutorial";
+            this.btnTutorial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTutorial.UseVisualStyleBackColor = true;
             // 
             // Principal
             // 
@@ -490,7 +510,7 @@
         private System.Windows.Forms.Button btnError;
         private System.Windows.Forms.Button btnCodigo;
         private System.Windows.Forms.Button btnImagen;
-        private System.Windows.Forms.Button btnCategoria;
+        private System.Windows.Forms.Button btnArticulo;
         private System.Windows.Forms.Button lblOcupacion;
         private System.Windows.Forms.Button lblEmail;
         private System.Windows.Forms.Button lblNombres;
@@ -500,5 +520,6 @@
         private System.Windows.Forms.PictureBox btnRestaurar;
         private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.Button btnMenuPrincipal;
+        private System.Windows.Forms.Button btnTutorial;
     }
 }

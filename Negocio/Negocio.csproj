@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumeradores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserHelper.cs" />
     <Compile Include="UsuarioCN.cs" />

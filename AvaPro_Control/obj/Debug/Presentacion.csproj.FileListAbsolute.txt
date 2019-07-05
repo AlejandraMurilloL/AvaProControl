@@ -30,3 +30,13 @@ C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_
 C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.User.RecuperarContraseña.resources
 C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.User.CambiarContraseña.resources
 C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.CuadrosDeDialogo.MessageBoxAceptar.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.FrontEnd.FECategories.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.FrontEnd.Css3.SubCategoriesCss.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Concepts.GenericCategories.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.FrontEnd.JavaScript.SubCategoriesJs.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.FrontEnd.CodeEditors.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.BackEnd.BECategories.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.BackEnd.CSharp.SubCategoriesCSharp.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.BackEnd.Java.SubCategoriesJava.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.BackEnd.Php.SubCategoriesPhp.resources
+C:\Users\tesamerica\Documents\Visual Studio 2015\Projects\AvaPro_Control\AvaPro_Control\obj\Debug\AvaPro_Control.Forms.Categories.BackEnd.Python.SubCategoriesPython.resources

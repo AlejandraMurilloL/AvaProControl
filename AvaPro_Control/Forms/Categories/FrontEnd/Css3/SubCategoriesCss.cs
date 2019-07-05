@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AvaPro_Control.Forms.Concepts
+namespace AvaPro_Control.Forms.Categories.FrontEnd.Css3
 {
-    public partial class ConceptIndex : Form
+    public partial class SubCategoriesCss : Form
     {
-        public ConceptIndex()
+        public SubCategoriesCss()
         {
             InitializeComponent();
         }

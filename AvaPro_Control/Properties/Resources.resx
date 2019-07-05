@@ -118,16 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AngularLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AngularLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="aprobadoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aprobadoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bootstrapLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bootstrapLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="css3Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\css3Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="equisIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\equisIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foundationLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foundationLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="html5Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\html5Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="javascriptLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\javascriptLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lessLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lessLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="materializeLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\materializeLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextjsLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextjsLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nuxtjs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuxtjs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perfilHombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perfilHombre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perfilMujer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perfilMujer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PostCssLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PostCssLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reactLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reactLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sassLog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sassLog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stylusLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stylusLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vueLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vueLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atomLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atomLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bracketsLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bracketsLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c#Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eclipseLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eclipseLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IntelliJIdeaLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IntelliJIdeaLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="javaLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\javaLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netbeansLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\netbeansLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phpLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phpLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phpstormLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phpstormLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PyCharmLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PyCharmLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pydevLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pydevLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pythonLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pythonLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SublimeTextLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SublimeTextLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visualStudioCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visualStudioCode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visualStudioLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\visualStudioLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

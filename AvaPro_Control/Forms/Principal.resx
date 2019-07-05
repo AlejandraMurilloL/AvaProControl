@@ -184,6 +184,14 @@
         pQmDeC3qBW41I/o30wh9oM7o97V7vQlujUf3fNDC1qdY/iVZ9g1yNJWk68xuJgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="btnTutorial.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        uwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABqSURBVEhL7ZFB
+        CoAwDATzIf25/sCK+DDdw9yk2KS9aDsQaMguPYwNXExr2uclbaym9xUZ6k90PDUHa/sPvk+tA2p5FKpy
+        QO3PRB0Qf0fhkAPiPeB1QKwclVwOiPVEqQPOflQucsB50AKzGyGXMmTqat8YAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="btnMenuPrincipal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAC
@@ -213,7 +221,7 @@
         GClQDG78AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnCategoria.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnArticulo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
         uwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABqSURBVEhL7ZFB

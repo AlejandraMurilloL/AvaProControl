@@ -1,4 +1,5 @@
 ﻿
+using AvaPro_Control.Forms.Concepts;
 using AvaPro_Control.Forms.User;
 using AvaPro_Control.Vistas;
 using Entidades;
@@ -175,6 +176,11 @@ namespace AvaPro_Control.Forms
             panelContenedor.Tag = fh;
             fh.Show();
             this.Refresh();
+        }
+
+        private void btnConcepto_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new GenericCategories());
         }
 
         protected override void WndProc(ref Message msj)

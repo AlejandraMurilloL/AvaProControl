@@ -67,29 +67,89 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CuadrosDeDialogo\Completado.cs">
+    <Compile Include="DialogBoxes\Completado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CuadrosDeDialogo\Completado.Designer.cs">
+    <Compile Include="DialogBoxes\Completado.Designer.cs">
       <DependentUpon>Completado.cs</DependentUpon>
     </Compile>
-    <Compile Include="CuadrosDeDialogo\Error.cs">
+    <Compile Include="DialogBoxes\Error.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CuadrosDeDialogo\Error.Designer.cs">
+    <Compile Include="DialogBoxes\Error.Designer.cs">
       <DependentUpon>Error.cs</DependentUpon>
     </Compile>
-    <Compile Include="CuadrosDeDialogo\MessageBoxAceptar.cs">
+    <Compile Include="DialogBoxes\MessageBoxAceptar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CuadrosDeDialogo\MessageBoxAceptar.Designer.cs">
+    <Compile Include="DialogBoxes\MessageBoxAceptar.Designer.cs">
       <DependentUpon>MessageBoxAceptar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Concepts\ConceptIndex.cs">
+    <Compile Include="Forms\Categories\BackEnd\BECategories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Concepts\ConceptIndex.Designer.cs">
-      <DependentUpon>ConceptIndex.cs</DependentUpon>
+    <Compile Include="Forms\Categories\BackEnd\BECategories.Designer.cs">
+      <DependentUpon>BECategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\CSharp\SubCategoriesCSharp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\CSharp\SubCategoriesCSharp.Designer.cs">
+      <DependentUpon>SubCategoriesCSharp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\Java\SubCategoriesJava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\Java\SubCategoriesJava.Designer.cs">
+      <DependentUpon>SubCategoriesJava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\Php\SubCategoriesPhp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\Php\SubCategoriesPhp.Designer.cs">
+      <DependentUpon>SubCategoriesPhp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\Python\SubCategoriesPython.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\BackEnd\Python\SubCategoriesPython.Designer.cs">
+      <DependentUpon>SubCategoriesPython.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\CodeEditors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\CodeEditors.Designer.cs">
+      <DependentUpon>CodeEditors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\FECategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\FECategories.Designer.cs">
+      <DependentUpon>FECategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\Css3\SubCategoriesCss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\Css3\SubCategoriesCss.Designer.cs">
+      <DependentUpon>SubCategoriesCss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\JavaScript\SubCategoriesJs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Categories\FrontEnd\JavaScript\SubCategoriesJs.Designer.cs">
+      <DependentUpon>SubCategoriesJs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menus\CodeCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menus\CodeCategories.Designer.cs">
+      <DependentUpon>CodeCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menus\GenericCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menus\GenericCategories.Designer.cs">
+      <DependentUpon>GenericCategories.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Fondo.cs">
       <SubType>Form</SubType>
@@ -123,11 +183,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Forms\Inicio.cs">
+    <Compile Include="Forms\Index.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Inicio.Designer.cs">
-      <DependentUpon>Inicio.cs</DependentUpon>
+    <Compile Include="Forms\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
@@ -135,17 +195,44 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CuadrosDeDialogo\Completado.resx">
+    <EmbeddedResource Include="DialogBoxes\Completado.resx">
       <DependentUpon>Completado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CuadrosDeDialogo\Error.resx">
+    <EmbeddedResource Include="DialogBoxes\Error.resx">
       <DependentUpon>Error.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CuadrosDeDialogo\MessageBoxAceptar.resx">
+    <EmbeddedResource Include="DialogBoxes\MessageBoxAceptar.resx">
       <DependentUpon>MessageBoxAceptar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Concepts\ConceptIndex.resx">
-      <DependentUpon>ConceptIndex.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Categories\BackEnd\BECategories.resx">
+      <DependentUpon>BECategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\BackEnd\CSharp\SubCategoriesCSharp.resx">
+      <DependentUpon>SubCategoriesCSharp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\BackEnd\Java\SubCategoriesJava.resx">
+      <DependentUpon>SubCategoriesJava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\BackEnd\Php\SubCategoriesPhp.resx">
+      <DependentUpon>SubCategoriesPhp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\BackEnd\Python\SubCategoriesPython.resx">
+      <DependentUpon>SubCategoriesPython.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\FrontEnd\CodeEditors.resx">
+      <DependentUpon>CodeEditors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\FrontEnd\FECategories.resx">
+      <DependentUpon>FECategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\FrontEnd\Css3\SubCategoriesCss.resx">
+      <DependentUpon>SubCategoriesCss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Categories\FrontEnd\JavaScript\SubCategoriesJs.resx">
+      <DependentUpon>SubCategoriesJs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menus\GenericCategories.resx">
+      <DependentUpon>GenericCategories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Fondo.resx">
       <DependentUpon>Fondo.cs</DependentUpon>
@@ -172,8 +259,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Forms\Inicio.resx">
-      <DependentUpon>Inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -193,8 +280,32 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helps\" />
-    <Folder Include="ViewModels\" />
+    <Folder Include="Forms\BlogArticles\" />
+    <Folder Include="Forms\Books\" />
+    <Folder Include="Forms\Categories\ArtificialIntelligence\" />
+    <Folder Include="Forms\Categories\BigData\" />
+    <Folder Include="Forms\Categories\Biotechnology\" />
+    <Folder Include="Forms\Categories\CellphonesAndPCs\" />
+    <Folder Include="Forms\Categories\CloudComputing\" />
+    <Folder Include="Forms\Categories\DataBases\" />
+    <Folder Include="Forms\Categories\DigitalMarketing\" />
+    <Folder Include="Forms\Categories\FrontEnd\Html5\" />
+    <Folder Include="Forms\Categories\GraphicDesign\" />
+    <Folder Include="Forms\Categories\InternetOfThings\" />
+    <Folder Include="Forms\Categories\IT\" />
+    <Folder Include="Forms\Categories\MobileDevelopment\" />
+    <Folder Include="Forms\Categories\Nanotechnology\" />
+    <Folder Include="Forms\Categories\Networks\" />
+    <Folder Include="Forms\Categories\OperatingSystems\" />
+    <Folder Include="Forms\Categories\PersonalBrand\" />
+    <Folder Include="Forms\Categories\Robotics\" />
+    <Folder Include="Forms\Categories\VideogamesDevelopment\" />
+    <Folder Include="Forms\Categories\VirtualReality\" />
+    <Folder Include="Forms\Code\" />
+    <Folder Include="Forms\Concepts\" />
+    <Folder Include="Forms\Errors\" />
+    <Folder Include="Forms\Images\" />
+    <Folder Include="Forms\Tutorials\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
@@ -217,6 +328,99 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\equisIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\css3Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html5Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javascriptLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foundationLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materializeLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bootstrapLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stylusLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sassLog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PostCssLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lessLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AngularLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reactLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vueLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextjsLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuxtjs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vimlogo.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atomLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bracketsLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c#Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eclipseLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntelliJIdeaLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javaLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netbeansLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phpLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phpstormLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PyCharmLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pydevLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pythonLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SublimeTextLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visualStudioCode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visualStudioLogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
